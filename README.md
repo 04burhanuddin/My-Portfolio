@@ -5,4 +5,4 @@ dibuat dengan menggunakan
 - Bootstrap V5.0
 - CSS3
 
-## Setengah Jadi
+## Finally Meskipun Sangat Sederhana karna tidak ada tambahan JS
