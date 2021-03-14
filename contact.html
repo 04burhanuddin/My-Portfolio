@@ -22,8 +22,16 @@
     <!-- End My Css -->
 </head>
 
+<!-- karna kita ingin menggunakan grid pada bootsrap maka kita wajib untuk membungkus setiap div yang kita buat dengan
+container penjelasan lainnya ada di documentasi bootstrap 5 karna tampilan ini menggunakan bootsrap v5 skalian 
+belajar menggunnakan bootstrap v5-->
+
 <body style="background-color: #212529;">
-    <!-- Navbar -->
+    <!-- Navbar bawaan dari bootestrap tinggal di edit di sesuaikan dengan kebutuhan
+        pada bagian ini saya mengganti icon dari pada span menjadi titik 3 vertical
+        untuk mengganti icon cukup dengan mengunjungi web booststrap icon dan memilih icon
+        tinggal ambil nama class dan paste di span untuk mengganti icon untuk posisi navnya agar tetap di
+        bagian atas tinggal menambahkan class fixed-top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">Burhanuddin</a>
@@ -55,7 +63,7 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Contact -->
+    <!-- Contact menggunakan colm juga sama seperti pada halaman skils -->
     <div class="container" style="padding-top: 8rem;">
         <div class="row text-center text-white mt-5 mb-5">
             <div class="col">
@@ -76,16 +84,20 @@
     </div>
     <!-- End Contact -->
 
+    <!-- Footer pada bagian ini untuk menempatkan footer pada bagian bawah tinggal di kasih class
+        fixed-bottom-->
     <footer class="bg-dark text-white text-center pb-2 fixed-bottom">
         <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a
                 href="https://www.instagram.com/04burhanuddin/" class="text-white fw-bold">Burhanuddin</a></p>
     </footer>
     <!-- End Footer -->
 
+    <!-- js bootstrap agar fungsi menu pada saat resposive berjalan -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-    <script src="js/animastion.js"></script>
+    <!-- End js bootstrap -->
+
 </body>
 
 </html>
