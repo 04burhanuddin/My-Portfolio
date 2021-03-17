@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
     <!-- Required meta tags -->
@@ -32,7 +32,7 @@ belajar menggunnakan bootstrap v5-->
         bagian atas tinggal menambahkan class fixed-top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Burhanuddin</a>
+            <a class="navbar-brand page-scroll" href="#home">Burhanuddin</a>
             <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,19 +41,19 @@ belajar menggunnakan bootstrap v5-->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link page-scroll" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="skils.html">Skils</a>
+                        <a class="nav-link page-scroll" href="skils.html">Skils</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#certificate">Certificate</a>
+                        <a class="nav-link page-scroll" href="#certificate">Certificate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link page-scroll" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +89,7 @@ belajar menggunnakan bootstrap v5-->
                 </div>
             </div>
             <!-- fs adalah ukuran font (font size) -->
-            <div class="row justify-content-center fs-6 text-center">
+            <div class="row justify-content-center fs-6 text-center mb-5">
                 <div class="col-md-8 text-black-50">
                     <p><b>Hello World</b>, Nama saya Burhanuddin saat ini saya sedang menempuh pendidikan di STMIK
                         Akakom Yogyakarta, Daerah asal saya adalah Polewali Mandar salah satu Kabupaten Kota di Sulawesi
@@ -101,7 +101,7 @@ belajar menggunnakan bootstrap v5-->
     <!-- End About -->
 
     <!-- Certificate -->
-    <section id="certificate" style="padding-top: 10rem;">
+    <section id="certificate">
         <div class="container">
             <div class="row text-center mb-4">
                 <div class="col">
@@ -165,6 +165,16 @@ belajar menggunnakan bootstrap v5-->
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
     <!-- End js bootstrap -->
+
+    <!-- jadi saya memiliki banyak efek saat di click dengan menambahkan plugin Easing jquery
+    tinggal mengubahnya di bagian main.js yaitu file js yang saya buat secara terpisah untuk
+    membuat efeknya. -->
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- jquery untuk smooth scrolling -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end jquery -->
 
 </body>
 

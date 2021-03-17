@@ -56,6 +56,7 @@
     }
 }
 
+/* mengubah fill dari transparant ke fill dengan warna fill white */
 @keyframes fill {
     from {
         fill: transparent;
