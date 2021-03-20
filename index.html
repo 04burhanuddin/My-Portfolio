@@ -1,175 +1,182 @@
 <!DOCTYPE html>
 <html lang="en" id="home">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS V5.0-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <!-- Bootstrap CSS V5.0-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
-    <!-- Title -->
-    <title>Welcome | Portfolio Burhanuddin</title>
-    <link rel="shortcut icon" href="assets/profile/logo_mini.svg" type="image/x-icon" />
-    <!-- End Tittle -->
-  </head>
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
-  <!-- karna kita ingin menggunakan grid pada bootsrap maka kita wajib untuk membungkus setiap div yang kita buat dengan
-container penjelasan lainnya ada di documentasi bootstrap 5 karna tampilan ini menggunakan bootsrap v5 skalian 
-belajar menggunnakan bootstrap v5-->
+        <!-- Title -->
+        <title>Welcome | Portfolio Burhanuddin</title>
+        <link rel="shortcut icon" href="assets/profile/logo_mini.svg" type="image/x-icon" />
+        <!-- End Tittle -->
 
-  <body style="background-color: white">
-    <!-- Navbar bawaan dari bootestrap tinggal di edit di sesuaikan dengan kebutuhan
+    </head>
+
+    <!-- karna kita ingin menggunakan grid pada bootsrap maka kita wajib untuk membungkus setiap div yang kita buat dengan
+        container penjelasan lainnya ada di documentasi bootstrap 5 karna tampilan ini menggunakan bootsrap v5 skalian 
+        belajar menggunnakan bootstrap v5-->
+
+    <body style="background-color: white">
+        <!-- Navbar bawaan dari bootestrap tinggal di edit di sesuaikan dengan kebutuhan
         pada bagian ini saya mengganti icon dari pada span menjadi titik 3 vertical
         untuk mengganti icon cukup dengan mengunjungi web booststrap icon dan memilih icon
         tinggal ambil nama class dan paste di span untuk mengganti icon untuk posisi navnya agar tetap di
         bagian atas tinggal menambahkan class fixed-top -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand page-scroll" href="#home">Burhanuddin</a>
-        <button class="navbar-toggler" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="bi bi-three-dots-vertical"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="skils.html">Skils</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#certificate">Certificate</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center text-white" style="padding-top: 8rem; background-color: #212529">
-      <!-- agar img nya lingkaran tinggal manggil cls botstrap rounded circle dan img thumnail tambahan dekorasi -->
-      <img src="assets/profile/avatar.jpg" alt="Burhanuddin" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-5">Burhanuddin</h1>
-      <p class="lead">Mahasiswa STMIK Akakom Yogyakarta</p>
-
-      <!-- pada bagian ini saya menggunakan svg untuk membuat tampilan melengkung unruk membuatnya tinggal kunjungi
-        https://getwaves.io/ tingaal mengatur bentuk kelangkungan dan sebagainya lalu di copy svg nya tinggal di pastekan
-        di bagian yang di inginkan namun kekurangan nya adalah jika di mode gleap akan kelihatan jika tidak di akali lagi
-        seperti pada halaman ini. -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,256L60,266.7C120,277,240,299,360,288C480,277,600,235,720,192C840,149,960,107,1080,85.3C1200,64,1320,64,1380,64L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Jumbotron -->
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <!-- fs adalah ukuran font (font size) -->
-        <div class="row justify-content-center fs-6 text-center mb-5">
-          <div class="col-md-8 text-black-50">
-            <p>
-              <b>Hello World</b>, Nama saya Burhanuddin saat ini saya sedang menempuh pendidikan di STMIK Akakom Yogyakarta, Daerah asal saya adalah Polewali Mandar salah satu Kabupaten Kota di Sulawesi Barat, Di STMIK Akakom saya mengambil jurusan
-              Informatika.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About -->
-
-    <!-- Certificate -->
-    <section id="certificate">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>My Certificate</h2>
-          </div>
-        </div>
-        <!-- pada bagian ini mengguakan card dengan isi img dan img nya di rapatkan ke top untuk mengisi card body text -->
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/certificate/IntroductionSecurity.jpg" class="card-img-top" alt="Certificate 1" />
-              <div class="card-body text-center">
-                <a href="https://www.coursera.org/account/accomplishments/certificate/ABQZZ3K8TMFY" class="card-link text-decoration-none">See Details</a>
-              </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand page-scroll" href="#home">Burhanuddin</a>
+                <button class="navbar-toggler" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-three-dots-vertical"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="skils.html">Skils</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#certificate">Certificate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/certificate/cisco.jpg" class="card-img-top" alt="Certificate 2" />
-              <div class="card-body text-center">
-                <a href="https://www.youracclaim.com/badges/4acb7936-7b72-40cc-b196-2c9fa24be1fd?source=linked_in_profile" class="card-link text-decoration-none">See Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/certificate/DataAnlytic.jpg" class="card-img-top" alt="Certificate 3" />
-              <div class="card-body text-center">
-                <a href="https://www.coursera.org/account/accomplishments/certificate/9XSFL5MLM5BD" class="card-link text-decoration-none">See Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- pada bagian ini saya menggunakan svg untuk membuat tampilan melengkung unruk membuatnya tinggal kunjungi
+        </nav>
+        <!-- End Navbar -->
+
+        <!-- Jumbotron -->
+        <section class="jumbotron text-center text-white" style="padding-top: 8rem; background-color: #212529">
+            <!-- agar img nya lingkaran tinggal manggil cls botstrap rounded circle dan img thumnail tambahan dekorasi -->
+            <img src="assets/profile/avatar.jpg" alt="Burhanuddin" width="200" class="rounded-circle img-thumbnail" />
+            <h1 class="display-5">Burhanuddin</h1>
+            <p class="lead">Mahasiswa STMIK Akakom Yogyakarta</p>
+            <!-- pada bagian ini saya menggunakan svg untuk membuat tampilan melengkung unruk membuatnya tinggal kunjungi
             https://getwaves.io/ tingaal mengatur bentuk kelangkungan dan sebagainya lalu di copy svg nya tinggal di pastekan
             di bagian yang di inginkan namun kekurangan nya adalah jika di mode gleap akan kelihatan jika tidak di akali lagi
             seperti pada halaman ini. -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#212529"
-          fill-opacity="1"
-          d="M0,224L48,224C96,224,192,224,288,229.3C384,235,480,245,576,256C672,267,768,277,864,245.3C960,213,1056,139,1152,133.3C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Certificate -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1"
+                d="M0,256L60,266.7C120,277,240,299,360,288C480,277,600,235,720,192C840,149,960,107,1080,85.3C1200,64,1320,64,1380,64L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- End Jumbotron -->
 
-    <!-- Footer pada bagian ini untuk menempatkan footer pada bagian bawah tinggal di kasih class
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <!-- fs adalah ukuran font (font size) -->
+                <div class="row justify-content-center fs-6 text-center mb-5">
+                    <div class="col-md-8 text-black-50">
+                        <p>
+                            <b>Hello World</b>, Nama saya Burhanuddin saat ini saya sedang menempuh
+                            pendidikan di STMIK
+                            Akakom Yogyakarta, Daerah asal saya adalah Polewali Mandar salah satu
+                            Kabupaten Kota di Sulawesi
+                            Barat, Di STMIK Akakom saya mengambil jurusan Informatika.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Certificate -->
+        <section id="certificate">
+            <div class="container">
+                <div class="row text-center mb-4">
+                    <div class="col">
+                        <h2>My Certificate</h2>
+                    </div>
+                </div>
+                <!-- pada bagian ini mengguakan card dengan isi img dan img nya di rapatkan ke top untuk mengisi card body text -->
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/certificate/IntroductionSecurity.jpg" class="card-img-top" alt="Certificate 1" />
+                            <div class="card-body text-center">
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/ABQZZ3K8TMFY"
+                                class="card-link text-decoration-none">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/certificate/cisco.jpg" class="card-img-top" alt="Certificate 2" />
+                            <div class="card-body text-center">
+                                <a href="https://www.youracclaim.com/badges/4acb7936-7b72-40cc-b196-2c9fa24be1fd?source=linked_in_profile"
+                                class="card-link text-decoration-none">See
+                                    Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="assets/certificate/DataAnlytic.jpg" class="card-img-top" alt="Certificate 3" />
+                            <div class="card-body text-center">
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/9XSFL5MLM5BD"
+                                class="card-link text-decoration-none">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pada bagian ini saya menggunakan svg untuk membuat tampilan melengkung unruk membuatnya tinggal kunjungi
+            https://getwaves.io/ tingaal mengatur bentuk kelangkungan dan sebagainya lalu di copy svg nya tinggal di pastekan
+            di bagian yang di inginkan namun kekurangan nya adalah jika di mode gleap akan kelihatan jika tidak di akali lagi
+            seperti pada halaman ini. -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#212529" fill-opacity="1"
+                d="M0,224L48,224C96,224,192,224,288,229.3C384,235,480,245,576,256C672,267,768,277,864,245.3C960,213,1056,139,1152,133.3C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!-- End Certificate -->
+
+        <!-- Footer pada bagian ini untuk menempatkan footer pada bagian bawah tinggal di kasih class
         fixed-bottom-->
-    <footer class="bg-dark text-white text-center pb-5">
-      <p>
-        Created with <i class="bi bi-suit-heart-fill text-danger"></i> by
-        <a href="https://www.instagram.com/04burhanuddin/" class="text-white fw-bold text-decoration-none">Burhanuddin</a>
-      </p>
-    </footer>
-    <!-- End Footer -->
+        <footer class="bg-dark text-white text-center pb-5">
+            <p> Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/04burhanuddin/"
+                class="text-white fw-bold text-decoration-none">Burhanuddin</a>
+            </p>
+        </footer>
+        <!-- End Footer -->
 
-    <!-- js bootstrap agar fungsi menu pada saat resposive berjalan -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <!-- End js bootstrap -->
+        <!-- js bootstrap agar fungsi menu pada saat resposive berjalan -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <!-- End js bootstrap -->
 
-    <!-- jadi saya memiliki banyak efek saat di click dengan menambahkan plugin Easing jquery
-    tinggal mengubahnya di bagian main.js yaitu file js yang saya buat secara terpisah untuk
-    membuat efeknya. -->
-    <script src="js/jquery.easing.1.3.js"></script>
+        <!-- jadi saya memiliki banyak efek saat di click dengan menambahkan plugin Easing jquery
+        tinggal mengubahnya di bagian main.js yaitu file js yang saya buat secara terpisah untuk
+        membuat efeknya. -->
+        <script src="js/jquery.easing.1.3.js"></script>
 
-    <!-- jquery untuk smooth scrolling -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- end jquery -->
-  </body>
+        <!-- jquery untuk smooth scrolling -->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- end jquery -->
+    </body>
+
 </html>
