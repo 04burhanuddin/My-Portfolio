@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS V5.0-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/skils.css">
+    <link rel="stylesheet" href="css/skils.css" />
+    <link rel="shortcut icon" href="./assets/profile/logo_mini.svg" type="image/x-icon" />
 
     <!-- Title -->
     <title>Welcome | Skils</title>
-    <link rel="shortcut icon" href="./assets/profile/logo_mini.svg" type="image/x-icon">
     <!-- End My Css -->
+  </head>
 
-</head>
-
-<!-- karna kita ingin menggunakan grid pada bootsrap maka kita wajib untuk membungkus setiap div yang kita buat dengan
+  <!-- karna kita ingin menggunakan grid pada bootsrap maka kita wajib untuk membungkus setiap div yang kita buat dengan
 container penjelasan lainnya ada di documentasi bootstrap 5 karna tampilan ini menggunakan bootsrap v5 skalian 
 belajar menggunnakan bootstrap v5-->
 
-<body style="background-color: #212529;">
+  <body style="background-color: #212529">
     <!-- Navbar bawaan dari bootestrap tinggal di edit di sesuaikan dengan kebutuhan
     pada bagian ini saya mengganti icon dari pada span menjadi titik 3 vertical
     untuk mengganti icon cukup dengan mengunjungi web booststrap icon dan memilih icon
     tinggal ambil nama class dan paste di span untuk mengganti icon untuk posisi navnya agar tetap di
     bagian atas tinggal menambahkan class fixed-top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Burhanuddin</a>
-            <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="bi bi-three-dots-vertical"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="skils.html">Skils</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#certificate">Certificate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Burhanuddin</a>
+        <button class="navbar-toggler" style="border: none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bi bi-three-dots-vertical"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skils.html">Skils</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#certificate">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- End Navbar -->
 
@@ -69,132 +64,128 @@ belajar menggunnakan bootstrap v5-->
     untuk mengatur pergerakan strokr stroke-dasharray dan stroke-dashoffset pada css selengkapnya bisa mempelajari cara buat animasi svg 
     dengan menggunakan css ada banyak di internet script yang saya gunakan ada di bawah sebelum tag body-->
     <section class="text-center">
-        <div class="container">
-            <svg id="skils" width="153" height="29" viewBox="0 0 153 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M28.052 1.98001V27H23.948V9.86401L16.316 27H13.472L5.80401 9.86401V27H1.70001V1.98001H6.12801L14.912 21.6L23.66 1.98001H28.052Z"
-                    stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
-                <path
-                    d="M51.9861 1.98001L43.7061 17.928V27H39.6021V17.928L31.2861 1.98001H35.8581L41.6541 14.256L47.4501 1.98001H51.9861Z"
-                    stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
-                <path
-                    d="M72.8385 27.252C71.1585 27.252 69.6465 26.964 68.3025 26.388C66.9585 25.788 65.9025 24.948 65.1345 23.868C64.3665 22.788 63.9825 21.528 63.9825 20.088H68.3745C68.4706 21.168 68.8905 22.056 69.6345 22.752C70.4025 23.448 71.4705 23.796 72.8385 23.796C74.2545 23.796 75.3586 23.46 76.1506 22.788C76.9426 22.092 77.3385 21.204 77.3385 20.124C77.3385 19.284 77.0865 18.6 76.5826 18.072C76.1025 17.544 75.4905 17.136 74.7465 16.848C74.0265 16.56 73.0185 16.248 71.7225 15.912C70.0905 15.48 68.7585 15.048 67.7265 14.616C66.7185 14.16 65.8545 13.464 65.1345 12.528C64.4145 11.592 64.0545 10.344 64.0545 8.78401C64.0545 7.34401 64.4145 6.08401 65.1345 5.00401C65.8545 3.92401 66.8625 3.09601 68.1585 2.52001C69.4545 1.94401 70.9545 1.65601 72.6585 1.65601C75.0825 1.65601 77.0625 2.26801 78.5985 3.49201C80.1585 4.69201 81.0225 6.34801 81.1905 8.46001H76.6545C76.5825 7.54801 76.1505 6.76801 75.3585 6.12001C74.5665 5.47201 73.5225 5.14801 72.2265 5.14801C71.0505 5.14801 70.0905 5.44801 69.3465 6.04801C68.6025 6.64801 68.2305 7.51201 68.2305 8.64001C68.2305 9.40801 68.4585 10.044 68.9145 10.548C69.3945 11.028 69.9945 11.412 70.7145 11.7C71.4345 11.988 72.4185 12.3 73.6665 12.636C75.3225 13.092 76.6665 13.548 77.6985 14.004C78.7545 14.46 79.6425 15.168 80.3625 16.128C81.1065 17.064 81.4785 18.324 81.4785 19.908C81.4785 21.18 81.1305 22.38 80.4345 23.508C79.7625 24.636 78.7665 25.548 77.4465 26.244C76.1505 26.916 74.6145 27.252 72.8385 27.252Z"
-                    stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
-                <path
-                    d="M100.109 27L90.4251 15.804V27H86.3211V1.98001H90.4251V13.392L100.145 1.98001H105.293L94.4211 14.508L105.473 27H100.109Z"
-                    stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
-                <path d="M113.206 1.98001V27H109.102V1.98001H113.206Z" stroke="white" stroke-width="2"
-                    mask="url(#path-1-outside-1)" />
-                <path d="M122.699 23.688H131.159V27H118.595V1.98001H122.699V23.688Z" stroke="white" stroke-width="2"
-                    mask="url(#path-1-outside-1)" />
-                <path
-                    d="M142.835 27.252C141.155 27.252 139.643 26.964 138.299 26.388C136.955 25.788 135.899 24.948 135.131 23.868C134.363 22.788 133.979 21.528 133.979 20.088H138.371C138.467 21.168 138.887 22.056 139.631 22.752C140.399 23.448 141.467 23.796 142.835 23.796C144.251 23.796 145.355 23.46 146.147 22.788C146.939 22.092 147.335 21.204 147.335 20.124C147.335 19.284 147.083 18.6 146.579 18.072C146.099 17.544 145.487 17.136 144.743 16.848C144.023 16.56 143.015 16.248 141.719 15.912C140.087 15.48 138.755 15.048 137.723 14.616C136.715 14.16 135.851 13.464 135.131 12.528C134.411 11.592 134.051 10.344 134.051 8.78401C134.051 7.34401 134.411 6.08401 135.131 5.00401C135.851 3.92401 136.859 3.09601 138.155 2.52001C139.451 1.94401 140.951 1.65601 142.655 1.65601C145.079 1.65601 147.059 2.26801 148.595 3.49201C150.155 4.69201 151.019 6.34801 151.187 8.46001H146.651C146.579 7.54801 146.147 6.76801 145.355 6.12001C144.563 5.47201 143.519 5.14801 142.223 5.14801C141.047 5.14801 140.087 5.44801 139.343 6.04801C138.599 6.64801 138.227 7.51201 138.227 8.64001C138.227 9.40801 138.455 10.044 138.911 10.548C139.391 11.028 139.991 11.412 140.711 11.7C141.431 11.988 142.415 12.3 143.663 12.636C145.319 13.092 146.663 13.548 147.695 14.004C148.751 14.46 149.639 15.168 150.359 16.128C151.103 17.064 151.475 18.324 151.475 19.908C151.475 21.18 151.127 22.38 150.431 23.508C149.759 24.636 148.763 25.548 147.443 26.244C146.147 26.916 144.611 27.252 142.835 27.252Z"
-                    stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
-            </svg>
-        </div>
+      <div class="container">
+        <svg id="skils" width="153" height="29" viewBox="0 0 153 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M28.052 1.98001V27H23.948V9.86401L16.316 27H13.472L5.80401 9.86401V27H1.70001V1.98001H6.12801L14.912 21.6L23.66 1.98001H28.052Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+          <path d="M51.9861 1.98001L43.7061 17.928V27H39.6021V17.928L31.2861 1.98001H35.8581L41.6541 14.256L47.4501 1.98001H51.9861Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+          <path
+            d="M72.8385 27.252C71.1585 27.252 69.6465 26.964 68.3025 26.388C66.9585 25.788 65.9025 24.948 65.1345 23.868C64.3665 22.788 63.9825 21.528 63.9825 20.088H68.3745C68.4706 21.168 68.8905 22.056 69.6345 22.752C70.4025 23.448 71.4705 23.796 72.8385 23.796C74.2545 23.796 75.3586 23.46 76.1506 22.788C76.9426 22.092 77.3385 21.204 77.3385 20.124C77.3385 19.284 77.0865 18.6 76.5826 18.072C76.1025 17.544 75.4905 17.136 74.7465 16.848C74.0265 16.56 73.0185 16.248 71.7225 15.912C70.0905 15.48 68.7585 15.048 67.7265 14.616C66.7185 14.16 65.8545 13.464 65.1345 12.528C64.4145 11.592 64.0545 10.344 64.0545 8.78401C64.0545 7.34401 64.4145 6.08401 65.1345 5.00401C65.8545 3.92401 66.8625 3.09601 68.1585 2.52001C69.4545 1.94401 70.9545 1.65601 72.6585 1.65601C75.0825 1.65601 77.0625 2.26801 78.5985 3.49201C80.1585 4.69201 81.0225 6.34801 81.1905 8.46001H76.6545C76.5825 7.54801 76.1505 6.76801 75.3585 6.12001C74.5665 5.47201 73.5225 5.14801 72.2265 5.14801C71.0505 5.14801 70.0905 5.44801 69.3465 6.04801C68.6025 6.64801 68.2305 7.51201 68.2305 8.64001C68.2305 9.40801 68.4585 10.044 68.9145 10.548C69.3945 11.028 69.9945 11.412 70.7145 11.7C71.4345 11.988 72.4185 12.3 73.6665 12.636C75.3225 13.092 76.6665 13.548 77.6985 14.004C78.7545 14.46 79.6425 15.168 80.3625 16.128C81.1065 17.064 81.4785 18.324 81.4785 19.908C81.4785 21.18 81.1305 22.38 80.4345 23.508C79.7625 24.636 78.7665 25.548 77.4465 26.244C76.1505 26.916 74.6145 27.252 72.8385 27.252Z"
+            stroke="white"
+            stroke-width="2"
+            mask="url(#path-1-outside-1)"
+          />
+          <path d="M100.109 27L90.4251 15.804V27H86.3211V1.98001H90.4251V13.392L100.145 1.98001H105.293L94.4211 14.508L105.473 27H100.109Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+          <path d="M113.206 1.98001V27H109.102V1.98001H113.206Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+          <path d="M122.699 23.688H131.159V27H118.595V1.98001H122.699V23.688Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+          <path
+            d="M142.835 27.252C141.155 27.252 139.643 26.964 138.299 26.388C136.955 25.788 135.899 24.948 135.131 23.868C134.363 22.788 133.979 21.528 133.979 20.088H138.371C138.467 21.168 138.887 22.056 139.631 22.752C140.399 23.448 141.467 23.796 142.835 23.796C144.251 23.796 145.355 23.46 146.147 22.788C146.939 22.092 147.335 21.204 147.335 20.124C147.335 19.284 147.083 18.6 146.579 18.072C146.099 17.544 145.487 17.136 144.743 16.848C144.023 16.56 143.015 16.248 141.719 15.912C140.087 15.48 138.755 15.048 137.723 14.616C136.715 14.16 135.851 13.464 135.131 12.528C134.411 11.592 134.051 10.344 134.051 8.78401C134.051 7.34401 134.411 6.08401 135.131 5.00401C135.851 3.92401 136.859 3.09601 138.155 2.52001C139.451 1.94401 140.951 1.65601 142.655 1.65601C145.079 1.65601 147.059 2.26801 148.595 3.49201C150.155 4.69201 151.019 6.34801 151.187 8.46001H146.651C146.579 7.54801 146.147 6.76801 145.355 6.12001C144.563 5.47201 143.519 5.14801 142.223 5.14801C141.047 5.14801 140.087 5.44801 139.343 6.04801C138.599 6.64801 138.227 7.51201 138.227 8.64001C138.227 9.40801 138.455 10.044 138.911 10.548C139.391 11.028 139.991 11.412 140.711 11.7C141.431 11.988 142.415 12.3 143.663 12.636C145.319 13.092 146.663 13.548 147.695 14.004C148.751 14.46 149.639 15.168 150.359 16.128C151.103 17.064 151.475 18.324 151.475 19.908C151.475 21.18 151.127 22.38 150.431 23.508C149.759 24.636 148.763 25.548 147.443 26.244C146.147 26.916 144.611 27.252 142.835 27.252Z"
+            stroke="white"
+            stroke-width="2"
+            mask="url(#path-1-outside-1)"
+          />
+        </svg>
+      </div>
     </section>
     <!-- End animasi svg -->
 
     <!-- Skils -->
     <div class="container">
-        <div class="row text-center text-white mt-5 fs-3">
-            <div class="col">
-                <h4>Language and Tools</h4>
-            </div>
+      <div class="row text-center text-white mt-5 fs-3">
+        <div class="col">
+          <h4>Language and Tools</h4>
         </div>
-        <!-- pada bagian ini menggunakan colm dari bootstrap kemudin saya tentukan di saat di tamilan mobile saya ubah
+      </div>
+      <!-- pada bagian ini menggunakan colm dari bootstrap kemudin saya tentukan di saat di tamilan mobile saya ubah
         posisi colm nya jadi 3 colm untuk mengedit tampilannya tinggal memanggil dari class botsrapnya -->
 
-        <!-- untuk setiap gambar yang saya gunakan ini saya cari gambar di internet dalam bentuk SVG agar memudahkan kita dalam 
+      <!-- untuk setiap gambar yang saya gunakan ini saya cari gambar di internet dalam bentuk SVG agar memudahkan kita dalam 
             melakukan modifikasi setelah di edit di figma tinddal di export kemudian saya edit lagi di figma
             untuk menyesuaikan ke inginan saya -->
-        <div class="row row-cols-3 row-cols-sm-2 row-cols-md-6 mx-3 justify-content-center">
-            <!-- untuk ukuran img manggukan h untuk height dan w untuk width selengkapnya di bootsrap -->
-            <div class="col mt-3">
-                <img src="assets/skils/ubuntu.svg" class="w-75 h-75" alt="ubuntu">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/bash.svg" class="w-75 h-75" alt="bash">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/php.svg" class="w-75 h-75" alt="php">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/Laravel.svg" class="w-75 h-75" alt="laravel">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/CodeIgniter.svg" class="w-75 h-75" alt="codeIgniter">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/Kotlin.svg" class="w-75 h-75" alt="kotlin">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/Js.svg" class="w-75 h-75" alt="javascript">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/Java.svg" class="w-75 h-75" alt="java">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/Flutter.svg" class="w-75 h-75" alt="flutter">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/mysql.svg" class="w-75 h-75" alt="mysql">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/dart.svg" class="w-75 h-75" alt="dart">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/studio.svg" class="w-75 h-75" alt="android studio">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/intellij idea.svg" class="w-75 h-75" alt="intellij idea">
-            </div>
-            <div class="col mt-3">
-                <img src="assets/skils/vs code.svg" class="w-75 h-75" alt="visual studio code">
-            </div>
-            <div class="col mt-3 mb-5">
-                <img src="assets/skils/Figma.svg" class="w-75 h-75" alt="figma">
-            </div>
+      <div class="row row-cols-3 row-cols-md-6 mx-3 justify-content-center">
+        <!-- untuk ukuran img manggukan h untuk height dan w untuk width selengkapnya di bootsrap -->
+        <!-- karna row cools 3 maksudnya adalah jika di mode mobile jumlah kolomnya adalah 3 sedangakn
+        di mode dekstop menggunakan md(medium) dengan jumlah kolom adalah 6 -->
+        <div class="col mt-3">
+          <img src="assets/skils/ubuntu.svg" class="w-75 h-75" alt="ubuntu" />
         </div>
+        <div class="col mt-3">
+          <img src="assets/skils/bash.svg" class="w-75 h-75" alt="bash" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/php.svg" class="w-75 h-75" alt="php" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/Laravel.svg" class="w-75 h-75" alt="laravel" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/CodeIgniter.svg" class="w-75 h-75" alt="codeIgniter" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/Kotlin.svg" class="w-75 h-75" alt="kotlin" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/Js.svg" class="w-75 h-75" alt="javascript" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/Java.svg" class="w-75 h-75" alt="java" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/Flutter.svg" class="w-75 h-75" alt="flutter" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/mysql.svg" class="w-75 h-75" alt="mysql" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/dart.svg" class="w-75 h-75" alt="dart" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/studio.svg" class="w-75 h-75" alt="android studio" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/intellij idea.svg" class="w-75 h-75" alt="intellij idea" />
+        </div>
+        <div class="col mt-3">
+          <img src="assets/skils/vs code.svg" class="w-75 h-75" alt="visual studio code" />
+        </div>
+        <div class="col mt-3 mb-5">
+          <img src="assets/skils/Figma.svg" class="w-75 h-75" alt="figma" />
+        </div>
+      </div>
     </div>
     <!-- End Skils -->
 
-
     <!-- Skils Github-->
     <div class="container">
-        <div class="row text-center text-white mb-1 fs-3 justify-content-center">
-            <div class="col">
-                <h6>Top Skils Github</h6>
-            </div>
+      <div class="row text-center text-white mb-1 fs-3 justify-content-center">
+        <div class="col">
+          <h6>Top Skils Github</h6>
         </div>
-        <!-- pada bagian ini terhubung langsung dengan api github profile kita dengan membaca
+      </div>
+      <!-- pada bagian ini terhubung langsung dengan api github profile kita dengan membaca
         semua repo yang kita push ke github di sini terlihat statistic github saya 04burhanuddin
         dan masih ada yang lain lagi misal ingin menampilkan count badge dan sebagainya -->
-        <div class="row justify-content-center">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mx-4 justify-content-center">
-                <div class="col">
-                    <img class="w-50px card-img-top mt-2"
-                        src="https://github-readme-stats.vercel.app/api?username=04burhanuddin&theme=dark&show_icons=true&locale=en"
-                        alt="04burhanuddin" />
-                </div>
-                <div class="col">
-                    <a href=" https://github.com/04burhanuddin">
-                        <img class="w-50px card-img-top mt-2"
-                            src="https://github-readme-stats.vercel.app/api/top-langs?username=04burhanuddin&show_icons=true&locale=en&layout=compact&theme=dark"
-                            alt="04burhanuddin">
-                    </a>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mx-4 justify-content-center">
+          <div class="col">
+            <img class="w-50px card-img-top mt-2" src="https://github-readme-stats.vercel.app/api?username=04burhanuddin&theme=dark&show_icons=true&locale=en" alt="04burhanuddin" />
+          </div>
+          <div class="col">
+            <a href=" https://github.com/04burhanuddin">
+              <img class="w-50px card-img-top mt-2" src="https://github-readme-stats.vercel.app/api/top-langs?username=04burhanuddin&show_icons=true&locale=en&layout=compact&theme=dark" alt="04burhanuddin" />
+            </a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Skils Github -->
 
     <!-- Footer pada bagian ini untuk menempatkan footer pada bagian bawah tinggal di kasih class
     fixed-bottom-->
     <footer class="bg-dark text-white text-center pb-2 mt-5">
-        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by
-            <a href="https://www.instagram.com/04burhanuddin/" class="text-white fw-bold">Burhanuddin</a>
-        </p>
+      <p>
+        Created with <i class="bi bi-suit-heart-fill text-danger"></i> by
+        <a href="https://www.instagram.com/04burhanuddin/" class="text-white fw-bold text-decoration-none">Burhanuddin</a>
+      </p>
     </footer>
     <!-- End Footer -->
 
@@ -209,10 +200,7 @@ belajar menggunnakan bootstrap v5-->
     <!-- end animasi -->
 
     <!-- js bootstrap agar fungsi menu pada saat resposive berjalan -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <!-- End js bootstrap -->
-</body>
-
+  </body>
 </html>
